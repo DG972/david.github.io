@@ -1,0 +1,534 @@
+
+nav {
+    background-color: #120d16;
+    padding: 14px;
+    margin: 0px;
+    position: fixed; /* Pour que la barre de navigation reste fixe sur le côté */
+    top: 0;
+    left: 0; /* Pour positionner sur le côté gauche (mettre `right: 0;` pour le côté droit) */
+    height: 100%; /* Pour que la barre de navigation prenne toute la hauteur */
+    width: 200px; /* Largeur de la barre de navigation */
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* Pour afficher les éléments en colonne */
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    color: #fff;
+}
+
+.nav li {
+    margin: 20px 0; /* Espacement entre les éléments */
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: #ECC440; /* Couleur du texte lors du survol */
+}
+.info {
+    margin-left: 220px;
+    height: 100vh;
+    position: relative;
+    background-image: url(../image/reseau.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.info h1, .info h2, .info p {
+    color: #fff;
+    margin: 0;
+}
+
+.info h1 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.info h2 {
+    font-size: 36px;
+    margin-top: 16px;
+}
+
+.info p {
+    font-size: 39px;
+    margin-top: 32px;
+    animation: defilement-rtl 15s infinite linear;
+}
+@keyframes defilement-rtl {
+    0% {
+        transform: translateX(100vw); /* Commence en dehors de l'écran à droite */
+    }
+    100% {
+        transform: translateX(0); /* Se déplace vers la gauche et reste visible */
+    }
+}
+
+.profil{
+    margin: 9%;
+    padding: 0%;
+}
+.profil h1 {
+    color: #D8532B;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 22%;
+}
+.profil p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 19%;
+}
+
+.carton{
+    padding: 13px;
+    background-color: orange;
+    width: 20%;
+    display: table;
+    margin: auto;
+    border-radius: 5%;
+    margin-left: 49%
+}
+.carton p{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.profil h2 {
+    color: #D8532B;
+    font-size: 34px;
+    text-align: center;
+    margin-top: inherit;
+    margin-left: 15%;
+    
+}
+.profil .text1 {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 15%;
+}
+.profil .text2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #272829;
+    
+}
+.profil .text3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #272829;
+    text-align: center;
+    margin-top: 6%;
+}
+.formation{
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 27px;
+    margin: 17%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 34%;
+    display: table;
+    margin-top: -3%;
+    width: 50%;
+}
+.formation p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.competences {
+    margin-top: 7%;
+}
+.competences h2 {
+    text-align: center;
+    color: #D8532B;
+    font-size: 34px;
+    margin-left: 24%;
+    margin-top: -9%;
+}
+.competences p {
+    text-align: center;
+    font-family: "Open Sans, sans-serif";
+    font-size: 20px;
+    margin-left: 24%;
+    margin-bottom: 13%;
+}
+.competences .text1 {
+    text-align: center;
+    color:#D8532B;
+    font-size: 34px;
+}
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 22px;
+    padding: 196px;
+    width: 348px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 34%;
+}
+
+.card .card1 {
+    background-color: yellow;
+    border: 1px solid #ccc;
+    border-radius: 22px;
+    height: 151px;
+    width: 67%;
+    margin-left: 66%;
+    padding: 25px;
+}
+.card .rectangle{
+    background-color: orangered;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    height: 155px;
+    width: 67%;
+    margin-top: -60%;
+    margin-left: -36%;
+    padding: 25px;
+}
+.rectangle h1{
+    color: #120d16;
+}
+.rectangle a {
+    text-decoration: none;
+}
+
+.nav1 { 
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    font-size:21px ;
+    color: #fff;
+}
+.competences1 {
+    margin-top: 11%;
+}
+
+.competences1 h2 {
+    color: #D8532B;
+    font-size: 34px;
+    text-align: center;
+    margin-left: 24%;
+}
+
+.competences1 .nav2{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 11%;
+    font-size: 13px;
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 30%;
+}
+.competences1 .nav3 {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 11%;
+    font-size: 21px;
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.icon {
+    width: 80px; /* Rétrécir les images à une taille uniforme */
+    height: 80px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Animation de transition */
+}
+
+.icon:hover {
+    transform: scale(1.2); /* Effet de zoom */
+    opacity: 0.8; /* Réduction de l'opacité pour un effet visuel */
+}
+
+li {
+    margin: 0 10px; /* Espace entre les icônes */
+}
+.Projets {
+    margin-top: 11%;
+}
+.projets h2{
+    color: #D8532B;
+    font-size: 34px;
+    text-align: center;
+    margin-left: 24%;;
+}
+.Projets p {
+    text-align: left;
+    font-family: "Open Sans, sans-serif";
+    font-size: 20px;
+    margin-left: 30%;
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    width: 334px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    margin-left: 30%;
+    padding: 16%;
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.entreprise{
+    margin-top: 11%;
+}
+.entreprise h2 {
+    color: #D8532B;
+    font-size: 34px;
+    text-align: center;
+    margin-left: 30%;
+}
+.entreprise p{
+    text-align: center;
+    font-family: "Open Sans, sans-serif";
+    font-size: 20px;
+}
+.entreprise h3{
+    text-align: center;
+    font-family: "Open Sans, sans-serif";
+    font-size: 20px;
+    margin-top: 8%;
+    margin-left: 30%;
+}
+.entreprise h4{
+    text-align: center;
+    font-family: "Open Sans, sans-serif";
+    font-size: 27px;
+    color: #D8532B;
+    margin-left: 30%;
+}
+.entreprise .text1{
+    text-align: center;
+    font-family: "Open Sans, sans-serif";
+    font-size: 20px;
+    margin-left: 20%;
+}
+.techno{
+    margin-top: 11%;
+}
+.techno h1{
+    color:#D8532B;
+    font-size:34px;
+    text-align: center;
+    margin-left: 30%;
+}
+.techno p{
+    text-align: center;
+    font-family: "Open Sans, sans-serif";
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+.contact{
+    margin-top: 11%;
+}
+.contact h1{
+    color:#D8532B;
+    font-size:34px;
+    margin-left: 30%;
+    text-align: center
+}
+.contact p{
+    text-align: center;
+    font-family: "Open Sans, sans-serif";
+    font-size: 20px;
+    margin-left: 20%;
+}
+.contact h2 {
+    color:black;
+    font-size:34px;
+    text-align: center
+}
+.card4{
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 22px;
+    padding: 139px;
+    width: 295px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 44%;
+}
+.card4 h2{
+    text-align: center;
+    font-size: 28px;
+    color: #120d16;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    margin-bottom: 9%;
+}
+.card4 button {
+    padding: 1%;
+    background: black;
+    color: white;
+}
+/* Styles pour les écrans moyens (tablettes) */
+@media (max-width: 768px) {
+    nav {
+        width: 160px;
+    }
+
+    .info {
+        margin-left: 180px;
+    }
+
+    .info h1 {
+        font-size: 36px;
+    }
+
+    .info h2 {
+        font-size: 28px;
+    }
+
+    .info p {
+        font-size: 20px;
+    }
+
+    .profil h1, .profil p {
+        margin-left: 10%;
+    }
+
+    .formation, .card, .card2, .card4 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .competences h2, .entreprise h2, .techno h1, .contact h1 {
+        margin-left: 15%;
+    }
+}
+
+/* Styles pour les petits écrans (mobiles) */
+@media (max-width: 400px) {
+    nav {
+        background-color: #120d16;
+        padding: 0px;
+        margin: 0px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 200px;
+    }
+
+    .nav {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column; /* Pour afficher les éléments en colonne */
+        padding: 0;
+        margin: 0;
+        font-size: 21px;
+        color: #fff;
+    }
+
+    .info {
+        height: 100vh;
+        position: relative;
+        background-image: url(../image/reseau.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vh;
+        margin-left: 188px;
+    }
+
+    .info h1 {
+        font-size: 28px;
+    }
+
+    .info h2 {
+        font-size: 24px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+
+    .profil h1, .profil p {
+        margin-left: 5%;
+        font-size: 16px;
+    }
+
+    .formation, .card, .card2, .card4 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .competences h2, .entreprise h2, .techno h1, .contact h1 {
+        margin-left: 5%;
+        font-size: 28px;
+    }
+
+    .carton {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .carton p {
+        font-size: 18px;
+    }
+    /* Pour les écrans de bureau (largeurs > 1200px) */
+@media only screen and (min-width: 1200px) {
+    nav {
+        width: 250px;
+    }
+
+    .info {
+        margin-left: 270px;
+    }
+
+    .profil h1, .profil p, .formation, .competences h2, .entreprise h2, .techno h1, .contact h1 {
+        margin-left: 20%;
+    }
+
+    .card, .card4 {
+        margin-left: 35%;
+    }
+}
+}
